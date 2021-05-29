@@ -1,0 +1,70 @@
+{
+  "name": "orbit-db-identity-provider",
+  "version": "0.3.1",
+  "description": "Default identity provider for OrbitDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:node && npm run test:browser",
+    "test:node": "TEST=all mocha",
+    "test:browser": "npm run build:tests && mocha-headless-chrome -f ./test/browser/index.html -a no-sandbox",
+    "lint": "standard",
+    "build": "npm run build:dist",
+    "build:dist": "webpack --config ./conf/webpack.config.js --display-modules --sort-modules-by size --mode=production",
+    "build:tests": "webpack --config ./conf/webpack.tests.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitdb/orbit-db-identity-provider.git"
+  },
+  "keywords": [
+    "orbitdb",
+    "orbit-db",
+    "identity"
+  ],
+  "author": "shamb0t",
+  "contributors": [
+    "shamb0t",
+    "haadcode",
+    "RichardLitt",
+    "latenssi",
+    "adam-palazzo"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orbitdb/orbit-db-identity-provider/issues"
+  },
+  "homepage": "https://github.com/orbitdb/orbit-db-identity-provider#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "fs-extra": "^7.0.1",
+    "is-node": "^1.0.2",
+    "json-loader": "^0.5.7",
+    "localstorage-level-migration": "~0.1.0",
+    "mocha": "^5.2.0",
+    "mocha-headless-chrome": "^2.0.3",
+    "rimraf": "^2.6.2",
+    "standard": "^13.0.2",
+    "webpack": "^4.29.1",
+    "webpack-cli": "^3.2.2"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "dependencies": {
+    "ethers": "^5.0.8",
+    "orbit-db-keystore": "~0.3.5"
+  },
+  "localMaintainers": [
+    "haad <haad@haja.io>",
+    "shamb0t <shams@haja.io>",
+    "hajamark <mark@haja.io>"
+  ]
+}

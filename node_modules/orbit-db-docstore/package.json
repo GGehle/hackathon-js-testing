@@ -1,0 +1,36 @@
+{
+  "name": "orbit-db-docstore",
+  "version": "1.12.0",
+  "description": "Document Store for orbit-db",
+  "main": "src/DocumentStore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "orbitdb",
+    "orbit-db",
+    "docstore"
+  ],
+  "author": "shamb0t",
+  "license": "MIT",
+  "dependencies": {
+    "p-map": "~1.1.1"
+  },
+  "peerDependencies": {
+    "orbit-db-store": "4.x"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitdb/orbit-db-docstore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orbitdb/orbit-db-docstore/issues"
+  },
+  "homepage": "https://github.com/orbitdb/orbit-db-docstore#readme",
+  "localMaintainers": [
+    "haad <haad@haja.io>",
+    "shamb0t <shams@haja.io>",
+    "hajamark <mark@haja.io>"
+  ]
+}

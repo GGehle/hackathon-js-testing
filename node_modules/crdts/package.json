@@ -1,0 +1,32 @@
+{
+  "name": "crdts",
+  "version": "0.1.5",
+  "description": "A CRDT Library for JavaScript",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbitdb/crdts"
+  },
+  "author": "Haad",
+  "license": "MIT",
+  "keywords": [
+    "crdt",
+    "crdts",
+    "g-counter",
+    "g-set",
+    "or-set",
+    "lww-set",
+    "2p-set"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha"
+  }
+}

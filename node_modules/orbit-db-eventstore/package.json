@@ -1,0 +1,34 @@
+{
+  "name": "orbit-db-eventstore",
+  "version": "1.12.0",
+  "description": "Eventlog for orbit-db",
+  "main": "src/EventStore.js",
+  "homepage": "https://github.com/orbitdb/orbit-db-eventstore",
+  "bugs": "https://github.com/orbitdb/orbit-db-eventstore/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbitdb/orbit-db-eventstore"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
+  },
+  "keywords": [
+    "orbitdb",
+    "orbit-db",
+    "eventstore"
+  ],
+  "author": "Haad",
+  "license": "MIT",
+  "peerDependencies": {
+    "orbit-db-store": "4.x"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "localMaintainers": [
+    "haad <haad@haja.io>",
+    "shamb0t <shams@haja.io>",
+    "hajamark <mark@haja.io>"
+  ]
+}

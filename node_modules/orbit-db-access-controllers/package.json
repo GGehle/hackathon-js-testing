@@ -1,0 +1,58 @@
+{
+  "name": "orbit-db-access-controllers",
+  "version": "0.3.0",
+  "description": "Access Controllers for OrbitDB",
+  "keywords": [
+    "orbit",
+    "orbitdb"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "TEST=all mocha",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitdb/orbit-db-access-controllers.git"
+  },
+  "contributors": [
+    "shamb0t",
+    "haadcode",
+    "latenssi",
+    "adam-palazzo",
+    "RichardLitt"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orbitdb/orbit-db-access-controllers/issues"
+  },
+  "homepage": "https://github.com/orbitdb/orbit-db-access-controllers#readme",
+  "dependencies": {
+    "orbit-db-io": "^0.3.0",
+    "p-map-series": "^1.0.0"
+  },
+  "devDependencies": {
+    "@colony/purser-software": "^1.1.2",
+    "datastore-level": "~0.12.0",
+    "ganache-cli": "^6.3.0",
+    "go-ipfs-dep": "0.4.19",
+    "ipfs": "~0.39.0",
+    "ipfs-repo": "~0.26.6",
+    "ipfsd-ctl": "~0.42.4",
+    "mocha": "^5.2.0",
+    "orbit-db": "~0.21.4",
+    "orbit-db-identity-provider": "~0.1.0",
+    "orbit-db-keystore": "~0.2.1",
+    "standard": "^14.1.0",
+    "web3": "1.0.0-beta.37"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "localMaintainers": [
+    "shamb0t <shams@haja.io>",
+    "hajamark <mark@haja.io>"
+  ]
+}

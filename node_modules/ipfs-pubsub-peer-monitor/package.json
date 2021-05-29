@@ -1,0 +1,17 @@
+{
+  "name": "ipfs-pubsub-peer-monitor",
+  "version": "0.0.10",
+  "description": "Monitor peers joining and leaving an IPFS PubSub topic",
+  "main": "src/ipfs-pubsub-peer-monitor.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "author": "Haad",
+  "license": "MIT",
+  "dependencies": {
+    "p-forever": "^2.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3"
+  }
+}
